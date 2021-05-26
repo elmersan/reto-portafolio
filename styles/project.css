@@ -40,10 +40,6 @@
     flex: 1;
   }
 
-  .project-description a {
-    font: var(--headline4);
-  }
-
   .project-image {
     flex: 1;
   }

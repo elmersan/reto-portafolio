@@ -66,3 +66,9 @@ a.title {
   text-transform: uppercase;
   text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+  a.title {
+    font: var(--headline4);
+  }
+}

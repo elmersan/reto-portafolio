@@ -13,6 +13,7 @@
   color: var(--white);
   font: var(--button);
   text-transform: uppercase;
+  letter-spacing: 0.125rem;
 }
 
 .menu ul li a.is-active {

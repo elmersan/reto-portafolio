@@ -1,0 +1,68 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./personal-message.css";
+@import "./testimonials.css";
+@import "./project.css";
+@import "./footer.css";
+@import "./contact.css";
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* font */
+  --font-base: "Poppins", sans-serif;
+  --headline1: bold 9.5rem / 15.4rem var(--font-base);
+  --headline2: bold 5.9rem / 9.5rem var(--font-base);
+  --headline3: bold 4.8rem / 7.7rem var(--font-base);
+  --headline4: bold 3.4rem / 5.5rem var(--font-base);
+  --headline5: bold 2.4rem / 3.8rem var(--font-base);
+  --body1: normal 1.6rem / 2.5rem var(--font-base);
+  --body2: normal 1.4rem / 2.2rem var(--font-base);
+  --button: bold 1.4rem / 2.2rem var(--font-base);
+  --caption: normal 1.2rem / 1.9rem var(--font-base);
+
+  /* colors */
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #ffffff;
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+
+  /* config */
+  --border-radius: 4px;
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+}
+
+a.title {
+  background: var(--purple);
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  font: var(--headline5);
+  color: var(--white);
+  box-shadow: -4px 4px 0 var(--white);
+  width: max-content;
+  text-transform: uppercase;
+  text-align: center;
+}

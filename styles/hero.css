@@ -1,0 +1,50 @@
+.hero {
+  padding-block-start: 1.6px;
+}
+
+.hero-image {
+  text-align: center;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.hero h1 {
+  font: var(--headline3);
+}
+
+.hero h1 span:first-child {
+  font: var(--headline5);
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .hero-image {
+    order: 2;
+    text-align: end;
+    flex: 1;
+  }
+
+  .hero-description {
+    order: 1;
+    max-inline-size: 45rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero-image img {
+    inline-size: 400px;
+    block-size: 400px;
+  }
+}

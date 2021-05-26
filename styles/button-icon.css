@@ -1,0 +1,18 @@
+.button-icon {
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  border: 0.2rem solid var(--purple);
+  background: var(--white);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-icon img {
+  vertical-align: middle;
+}
+
+.social {
+  display: flex;
+  padding-block-end: 2.4rem;
+  gap: 1.6rem;
+}

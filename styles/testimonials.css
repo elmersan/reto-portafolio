@@ -1,0 +1,52 @@
+.testimonials {
+  padding: 4rem 0 8rem 0;
+}
+
+.testimonials div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.4rem;
+  gap: 2.4rem;
+  border-radius: 2.4rem;
+  background-color: rgba(255, 255, 255, 20%);
+}
+
+.testimonials img {
+  width: 6.4rem;
+}
+
+.testimonials div p:nth-of-type(1) {
+  font: var(--body1);
+  font-weight: bold;
+}
+
+.testimonials div p:last-child {
+  font: var(--caption);
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials {
+    block-size: 65.3rem;
+    padding: 0;
+  }
+
+  .testimonials div {
+    text-align: center;
+    padding: 8rem;
+  }
+
+  .testimonials img {
+    width: 8rem;
+  }
+
+  .testimonials div p:nth-of-type(1) {
+    font: var(--headline4);
+  }
+
+  .testimonials div p:last-child {
+    font: var(--headline5);
+    font-weight: normal;
+  }
+}
